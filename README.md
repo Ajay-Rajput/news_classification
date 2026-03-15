@@ -7,6 +7,7 @@ An end-to-end NLP machine learning pipeline for classifying news articles into c
 This project demonstrates a clean, modular, and production-style ML workflow including preprocessing, feature engineering, training, evaluation, and configuration management.
 
 🚀 Project Overview
+
 The goal of this project is to build a scalable and reproducible text classification system using the AG News Dataset.
 
 The pipeline processes raw news data and classifies each article into its respective category using traditional NLP and machine learning techniques.
@@ -19,6 +20,7 @@ Reproducibility
 Maintainability
 Clear ML workflow separation
 🧠 Problem Statement
+
 Given a dataset containing news articles with titles and descriptions, classify each article into one of multiple predefined categories.
 
 This is a multi-class text classification problem.
@@ -34,6 +36,7 @@ Each stage is modular and separated into dedicated files for maintainability.
 classification_project/ │ ├── data/ │ ├── raw/ │ │ └── train.csv │ └── processed/ │ └── cleaned.csv │ ├── models/ │ └── news_classifier.pkl │ ├── results/ │ └── metrics.txt │ ├── src/ │ ├── config.py │ ├── data_preprocessing.py │ ├── feature_engineering.py │ ├── train.py │ └── evaluate.py │ ├── main.py ├── requirements.txt └── README.md
 
 🔁 Workflow Explanation
+
 1️⃣ Data Preprocessing
 File: data_preprocessing.py
 
@@ -59,6 +62,7 @@ Why TF-IDF?
 Reduces impact of common words
 Improves discriminative power
 Works efficiently with linear models
+
 3️⃣ Model Training
 File: train.py
 

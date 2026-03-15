@@ -1,17 +1,3 @@
-# import joblib
-# from sklearn.linear_model import LogisticRegression
-# from src.feature_engineering import extract_features
-# from src.config import MODEL_PATH, RANDOM_STATE
-
-# def train_model():
-#     X, y, vectorizer = extract_features()
-
-#     model = LogisticRegression(max_iter=200, random_state=RANDOM_STATE)
-#     model.fit(X, y)
-
-#     joblib.dump((model, vectorizer), MODEL_PATH)
-
-#     print("Model training completed and saved.")
 
 import joblib
 from sklearn.svm import LinearSVC

@@ -27,3 +27,6 @@ pip-wheel-metadata/
 *.pkl
 *.joblib
 .idea/
+
+# Allow deploying the model
+!models/news_classifier.pkl

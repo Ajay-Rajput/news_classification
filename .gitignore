@@ -29,4 +29,4 @@ pip-wheel-metadata/
 .idea/
 
 # Allow deploying the model
-!models/news_classifier.pkl
+!classification_project/models/news_classifier.pkl

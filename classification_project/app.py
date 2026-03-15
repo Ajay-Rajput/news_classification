@@ -8,8 +8,14 @@ from nltk.corpus import stopwords
 nltk.download("stopwords")
 stop_words = set(stopwords.words("english"))
 
+import os
+
+# Get absolute path for model loading
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+model_path = os.path.join(BASE_DIR, "models", "news_classifier.pkl")
+
 # Load trained model
-model, vectorizer, X_test, y_test = joblib.load("models/news_classifier.pkl")
+model, vectorizer, X_test, y_test = joblib.load(model_path)
 
 # Page title
 st.title("📰 News Text Classification App")

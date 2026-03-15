@@ -1,4 +1,5 @@
 📰 News Text Classification Pipeline
+
 live deployed link: https://newsclassification-uteurydj7da8jwe25frsyl.streamlit.app/
 
 An end-to-end NLP machine learning pipeline for classifying news articles into categories using TF-IDF vectorization and Linear Support Vector Machine (LinearSVC).
